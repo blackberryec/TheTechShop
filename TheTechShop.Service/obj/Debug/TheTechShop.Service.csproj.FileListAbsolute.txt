@@ -1,0 +1,13 @@
+F:\C# Data\TheTechShop\TheTechShop.Service\bin\Debug\TheTechShop.Service.dll
+F:\C# Data\TheTechShop\TheTechShop.Service\bin\Debug\TheTechShop.Service.pdb
+F:\C# Data\TheTechShop\TheTechShop.Service\bin\Debug\TheTechShop.Common.dll
+F:\C# Data\TheTechShop\TheTechShop.Service\bin\Debug\TheTechShop.Data.dll
+F:\C# Data\TheTechShop\TheTechShop.Service\bin\Debug\TheTechShop.Model.dll
+F:\C# Data\TheTechShop\TheTechShop.Service\bin\Debug\TheTechShop.Common.pdb
+F:\C# Data\TheTechShop\TheTechShop.Service\bin\Debug\TheTechShop.Data.pdb
+F:\C# Data\TheTechShop\TheTechShop.Service\bin\Debug\TheTechShop.Data.dll.config
+F:\C# Data\TheTechShop\TheTechShop.Service\bin\Debug\TheTechShop.Model.pdb
+F:\C# Data\TheTechShop\TheTechShop.Service\bin\Debug\TheTechShop.Model.dll.config
+F:\C# Data\TheTechShop\TheTechShop.Service\obj\Debug\TheTechShop.Service.csprojResolveAssemblyReference.cache
+F:\C# Data\TheTechShop\TheTechShop.Service\obj\Debug\TheTechShop.Service.dll
+F:\C# Data\TheTechShop\TheTechShop.Service\obj\Debug\TheTechShop.Service.pdb

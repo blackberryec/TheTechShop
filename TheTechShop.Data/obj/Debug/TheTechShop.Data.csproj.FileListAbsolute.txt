@@ -1,0 +1,12 @@
+F:\C# Data\TheTechShop\TheTechShop.Data\bin\Debug\TheTechShop.Data.dll.config
+F:\C# Data\TheTechShop\TheTechShop.Data\bin\Debug\TheTechShop.Data.dll
+F:\C# Data\TheTechShop\TheTechShop.Data\bin\Debug\TheTechShop.Data.pdb
+F:\C# Data\TheTechShop\TheTechShop.Data\bin\Debug\EntityFramework.dll
+F:\C# Data\TheTechShop\TheTechShop.Data\bin\Debug\EntityFramework.SqlServer.dll
+F:\C# Data\TheTechShop\TheTechShop.Data\bin\Debug\TheTechShop.Common.dll
+F:\C# Data\TheTechShop\TheTechShop.Data\bin\Debug\TheTechShop.Common.pdb
+F:\C# Data\TheTechShop\TheTechShop.Data\bin\Debug\EntityFramework.xml
+F:\C# Data\TheTechShop\TheTechShop.Data\bin\Debug\EntityFramework.SqlServer.xml
+F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.csprojResolveAssemblyReference.cache
+F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.dll
+F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.pdb
