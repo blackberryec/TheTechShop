@@ -11,3 +11,5 @@ F:\C# Data\TheTechShop\TheTechShop.Service\bin\Debug\TheTechShop.Model.dll.confi
 F:\C# Data\TheTechShop\TheTechShop.Service\obj\Debug\TheTechShop.Service.csprojResolveAssemblyReference.cache
 F:\C# Data\TheTechShop\TheTechShop.Service\obj\Debug\TheTechShop.Service.dll
 F:\C# Data\TheTechShop\TheTechShop.Service\obj\Debug\TheTechShop.Service.pdb
+F:\C# Data\TheTechShop\TheTechShop.Service\bin\Debug\EntityFramework.dll
+F:\C# Data\TheTechShop\TheTechShop.Service\bin\Debug\EntityFramework.xml

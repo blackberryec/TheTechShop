@@ -10,3 +10,6 @@ F:\C# Data\TheTechShop\TheTechShop.Data\bin\Debug\EntityFramework.SqlServer.xml
 F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.csprojResolveAssemblyReference.cache
 F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.dll
 F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.pdb
+F:\C# Data\TheTechShop\TheTechShop.Data\bin\Debug\TheTechShop.Model.dll
+F:\C# Data\TheTechShop\TheTechShop.Data\bin\Debug\TheTechShop.Model.pdb
+F:\C# Data\TheTechShop\TheTechShop.Data\bin\Debug\TheTechShop.Model.dll.config

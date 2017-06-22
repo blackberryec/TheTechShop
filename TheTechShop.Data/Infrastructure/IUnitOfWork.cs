@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace TheTechShop.Data.Infrastructure
 {
-    interface IUnitOfWork
+    public interface IUnitOfWork
     {
+        void Commit();
     }
 }
