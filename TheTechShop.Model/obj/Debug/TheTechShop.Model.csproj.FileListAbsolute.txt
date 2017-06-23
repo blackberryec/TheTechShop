@@ -7,3 +7,4 @@ F:\C# Data\TheTechShop\TheTechShop.Model\bin\Debug\EntityFramework.xml
 F:\C# Data\TheTechShop\TheTechShop.Model\bin\Debug\EntityFramework.SqlServer.xml
 F:\C# Data\TheTechShop\TheTechShop.Model\obj\Debug\TheTechShop.Model.dll
 F:\C# Data\TheTechShop\TheTechShop.Model\obj\Debug\TheTechShop.Model.pdb
+F:\C# Data\TheTechShop\TheTechShop.Model\obj\Debug\TheTechShop.Model.csprojResolveAssemblyReference.cache
