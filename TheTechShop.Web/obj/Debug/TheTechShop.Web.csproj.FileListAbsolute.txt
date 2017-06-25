@@ -1,4 +1,3 @@
-F:\C# Data\TheTechShop\TheTechShop.Web\bin\ApplicationInsights.config
 F:\C# Data\TheTechShop\TheTechShop.Web\bin\roslyn\csc.exe
 F:\C# Data\TheTechShop\TheTechShop.Web\bin\roslyn\csc.exe.config
 F:\C# Data\TheTechShop\TheTechShop.Web\bin\roslyn\csc.rsp
