@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNet.Identity.EntityFramework;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -8,7 +9,7 @@ using TheTechShop.Model.Models;
 
 namespace TheTechShop.Data
 {
-    public class TheTechShopDbContext : DbContext
+    public class TheTechShopDbContext : IdentityDbContext<ApplicationUser>
     {
         public TheTechShopDbContext() : base("TheTechShopConnection")
         {
@@ -37,9 +38,15 @@ namespace TheTechShop.Data
         public DbSet<VisitorStatistic> VisitorStatistics { set; get; }
         public DbSet<Error> Errors { set; get; }
 
+        public static TheTechShopDbContext Create()
+        {
+            return new TheTechShopDbContext();
+        }
+
         protected override void OnModelCreating(DbModelBuilder builder)
         {
-
+            builder.Entity<IdentityUserRole>().HasKey(i => new { i.UserId, i.RoleId });
+            builder.Entity<IdentityUserLogin>().HasKey(i => i.UserId);
         }
     }
 }

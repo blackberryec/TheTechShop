@@ -15,3 +15,8 @@ F:\C# Data\TheTechShop\TheTechShop.Data\bin\Debug\TheTechShop.Model.pdb
 F:\C# Data\TheTechShop\TheTechShop.Data\bin\Debug\TheTechShop.Model.dll.config
 F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.firstmigration.resources
 F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.csproj.GenerateResource.Cache
+F:\C# Data\TheTechShop\TheTechShop.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+F:\C# Data\TheTechShop\TheTechShop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\C# Data\TheTechShop\TheTechShop.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+F:\C# Data\TheTechShop\TheTechShop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.IntergrateaspnetIdentity.resources

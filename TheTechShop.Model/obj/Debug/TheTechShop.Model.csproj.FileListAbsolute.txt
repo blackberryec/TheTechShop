@@ -7,4 +7,7 @@ F:\C# Data\TheTechShop\TheTechShop.Model\bin\Debug\EntityFramework.xml
 F:\C# Data\TheTechShop\TheTechShop.Model\bin\Debug\EntityFramework.SqlServer.xml
 F:\C# Data\TheTechShop\TheTechShop.Model\obj\Debug\TheTechShop.Model.dll
 F:\C# Data\TheTechShop\TheTechShop.Model\obj\Debug\TheTechShop.Model.pdb
-F:\C# Data\TheTechShop\TheTechShop.Model\obj\Debug\TheTechShop.Model.csprojResolveAssemblyReference.cache
+F:\C# Data\TheTechShop\TheTechShop.Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+F:\C# Data\TheTechShop\TheTechShop.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\C# Data\TheTechShop\TheTechShop.Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+F:\C# Data\TheTechShop\TheTechShop.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
