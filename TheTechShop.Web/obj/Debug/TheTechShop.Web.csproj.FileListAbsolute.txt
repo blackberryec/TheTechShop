@@ -1,4 +1,3 @@
-F:\C# Data\TheTechShop\TheTechShop.Web\bin\ApplicationInsights.config
 F:\C# Data\TheTechShop\TheTechShop.Web\bin\roslyn\csc.exe
 F:\C# Data\TheTechShop\TheTechShop.Web\bin\roslyn\csc.exe.config
 F:\C# Data\TheTechShop\TheTechShop.Web\bin\roslyn\csc.rsp
@@ -85,3 +84,16 @@ F:\C# Data\TheTechShop\TheTechShop.Web\bin\Microsoft.AI.Web.xml
 F:\C# Data\TheTechShop\TheTechShop.Web\obj\Debug\TheTechShop.Web.csprojResolveAssemblyReference.cache
 F:\C# Data\TheTechShop\TheTechShop.Web\obj\Debug\TheTechShop.Web.dll
 F:\C# Data\TheTechShop\TheTechShop.Web\obj\Debug\TheTechShop.Web.pdb
+F:\C# Data\TheTechShop\TheTechShop.Web\bin\Autofac.dll
+F:\C# Data\TheTechShop\TheTechShop.Web\bin\Autofac.Integration.Mvc.dll
+F:\C# Data\TheTechShop\TheTechShop.Web\bin\Autofac.Integration.WebApi.dll
+F:\C# Data\TheTechShop\TheTechShop.Web\bin\Microsoft.Owin.dll
+F:\C# Data\TheTechShop\TheTechShop.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\C# Data\TheTechShop\TheTechShop.Web\bin\Owin.dll
+F:\C# Data\TheTechShop\TheTechShop.Web\bin\Autofac.xml
+F:\C# Data\TheTechShop\TheTechShop.Web\bin\Autofac.Integration.Mvc.xml
+F:\C# Data\TheTechShop\TheTechShop.Web\bin\Autofac.Integration.WebApi.xml
+F:\C# Data\TheTechShop\TheTechShop.Web\bin\Microsoft.Owin.xml
+F:\C# Data\TheTechShop\TheTechShop.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\C# Data\TheTechShop\TheTechShop.Web\bin\AutoMapper.dll
+F:\C# Data\TheTechShop\TheTechShop.Web\bin\AutoMapper.xml

@@ -49,23 +49,24 @@
   <ItemGroup>
     <Compile Include="Abstract\Auditable.cs" />
     <Compile Include="Abstract\IAuditable.cs" />
-    <Compile Include="Model\Footer.cs" />
-    <Compile Include="Model\Menu.cs" />
-    <Compile Include="Model\MenuGroup.cs" />
-    <Compile Include="Model\Order.cs" />
-    <Compile Include="Model\OrderDetail.cs" />
-    <Compile Include="Model\Page.cs" />
-    <Compile Include="Model\Post.cs" />
-    <Compile Include="Model\PostCategory.cs" />
-    <Compile Include="Model\PostTag.cs" />
-    <Compile Include="Model\Product.cs" />
-    <Compile Include="Model\ProductCategory.cs" />
-    <Compile Include="Model\ProductTag.cs" />
-    <Compile Include="Model\Slide.cs" />
-    <Compile Include="Model\SupportOnline.cs" />
-    <Compile Include="Model\SystemConfig.cs" />
-    <Compile Include="Model\Tag.cs" />
-    <Compile Include="Model\VisitorStatistic.cs" />
+    <Compile Include="Models\Error.cs" />
+    <Compile Include="Models\Footer.cs" />
+    <Compile Include="Models\Menu.cs" />
+    <Compile Include="Models\MenuGroup.cs" />
+    <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\OrderDetail.cs" />
+    <Compile Include="Models\Page.cs" />
+    <Compile Include="Models\Post.cs" />
+    <Compile Include="Models\PostCategory.cs" />
+    <Compile Include="Models\PostTag.cs" />
+    <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\ProductCategory.cs" />
+    <Compile Include="Models\ProductTag.cs" />
+    <Compile Include="Models\Slide.cs" />
+    <Compile Include="Models\SupportOnline.cs" />
+    <Compile Include="Models\SystemConfig.cs" />
+    <Compile Include="Models\Tag.cs" />
+    <Compile Include="Models\VisitorStatistic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,5 +1,5 @@
 F:\C# Data\TheTechShop\TheTechShop.Common\bin\Debug\TheTechShop.Common.dll
 F:\C# Data\TheTechShop\TheTechShop.Common\bin\Debug\TheTechShop.Common.pdb
-F:\C# Data\TheTechShop\TheTechShop.Common\obj\Debug\TheTechShop.Common.csprojResolveAssemblyReference.cache
 F:\C# Data\TheTechShop\TheTechShop.Common\obj\Debug\TheTechShop.Common.dll
 F:\C# Data\TheTechShop\TheTechShop.Common\obj\Debug\TheTechShop.Common.pdb
+F:\C# Data\TheTechShop\TheTechShop.Common\obj\Debug\TheTechShop.Common.csprojResolveAssemblyReference.cache
