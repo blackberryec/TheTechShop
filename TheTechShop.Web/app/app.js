@@ -1,5 +1,10 @@
 ﻿(function () {
-    angular.module('thetechshop', ['thetechshop.products', 'thetechshop.common']).config(config);
+    angular.module('thetechshop',
+        ['thetechshop.products',
+         'thetechshop.product_categories',
+         'thetechshop.common'
+        ])
+        .config(config);
 
     config.$inject = ['$stateProvider', '$urlRouterProvider'];
 
