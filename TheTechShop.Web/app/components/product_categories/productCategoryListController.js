@@ -8,15 +8,12 @@
         $scope.page = 0;
         $scope.pagesCount = 0;
         $scope.getProductCagories = getProductCagories;
+        $scope.keyword = '';
 
-        $scope.getProductCagories = getProductCagories;
+        $scope.search = search;
 
-        function getProductCagories() {
-            apiService.get('/api/productcategory/getall', null, function (result) {
-                $scope.productCategories = result.data;
-            }, function () {
-                console.log('Load productcategory failed.');
-            });
+        function search() {
+            getProductCagories();
         }
 
         function getProductCagories(page) {
