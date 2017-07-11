@@ -11,3 +11,4 @@ F:\C# Data\TheTechShop\TheTechShop.Model\bin\Debug\Microsoft.AspNet.Identity.Cor
 F:\C# Data\TheTechShop\TheTechShop.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
 F:\C# Data\TheTechShop\TheTechShop.Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 F:\C# Data\TheTechShop\TheTechShop.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\C# Data\TheTechShop\TheTechShop.Model\obj\Debug\TheTechShop.Model.csprojResolveAssemblyReference.cache
