@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Script.Serialization;
 using TheTechShop.Model.Models;
 using TheTechShop.Service;
 using TheTechShop.Web.Infrastructure.Core;
@@ -84,7 +85,9 @@ namespace TheTechShop.Web.Api
                 return response;
             });
         }
-
+        [Route("delete")]
+        [HttpDelete]
+        [AllowAnonymous]
         public HttpResponseMessage Delete(HttpRequestMessage request, int id)
         {
             return CreateHttpResponse(request, () =>
@@ -105,5 +108,7 @@ namespace TheTechShop.Web.Api
                 return response;
             });
         }
+
+        
     }
 }
