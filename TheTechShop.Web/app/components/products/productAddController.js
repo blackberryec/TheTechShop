@@ -31,6 +31,13 @@
             });
         }
 
+        $scope.ChooseImage = function () {
+            var finder = new CKFinder();
+            finder.selectActionFunction = function (fileUrl) {
+                $scope.product.Image = fileUrl;
+            }
+            finder.popup();
+        }
         loadProductCategory();
     }
 })(angular.module('thetechshop.products'));

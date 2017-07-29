@@ -109,3 +109,4 @@ F:\C# Data\TheTechShop\TheTechShop.Web\bin\Microsoft.AspNet.Identity.Owin.xml
 F:\C# Data\TheTechShop\TheTechShop.Web\bin\Microsoft.Owin.Security.xml
 F:\C# Data\TheTechShop\TheTechShop.Web\bin\Microsoft.Owin.Security.Cookies.xml
 F:\C# Data\TheTechShop\TheTechShop.Web\bin\Microsoft.Owin.Security.OAuth.xml
+F:\C# Data\TheTechShop\TheTechShop.Web\bin\CKFinder.dll

@@ -21,31 +21,31 @@
             CreateProductCategorySample(context);
             //  This method will be called after migrating to the latest version.
 
-            //var manager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new TheTechShopDbContext()));
+            var manager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new TheTechShopDbContext()));
 
-            //var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(new TheTechShopDbContext()));
+            var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(new TheTechShopDbContext()));
 
-            //var user = new ApplicationUser()
-            //{
-            //    UserName = "thetech",
-            //    Email = "thetech@gmail.com",
-            //    EmailConfirmed = true,
-            //    BirthDay = DateTime.Now,
-            //    FullName = "website ecomerce"
+            var user = new ApplicationUser()
+            {
+                UserName = "thetech",
+                Email = "thetech@gmail.com",
+                EmailConfirmed = true,
+                BirthDay = DateTime.Now,
+                FullName = "website ecomerce"
 
-            //};
+            };
 
-            //manager.Create(user, "123456");
+            manager.Create(user, "123456");
 
-            //if (!roleManager.Roles.Any())
-            //{
-            //    roleManager.Create(new IdentityRole { Name = "Admin" });
-            //    roleManager.Create(new IdentityRole { Name = "User" });
-            //}
+            if (!roleManager.Roles.Any())
+            {
+                roleManager.Create(new IdentityRole { Name = "Admin" });
+                roleManager.Create(new IdentityRole { Name = "User" });
+            }
 
-            //var adminUser = manager.FindByEmail("thetech@gmail.com");
+            var adminUser = manager.FindByEmail("thetech@gmail.com");
 
-            //manager.AddToRoles(adminUser.Id, new string[] { "Admin", "User" });
+            manager.AddToRoles(adminUser.Id, new string[] { "Admin", "User" });
         }
         private void CreateProductCategorySample(TheTechShop.Data.TheTechShopDbContext context)
         {
