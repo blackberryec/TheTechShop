@@ -1,9 +1,9 @@
 ﻿(function (app) {
     app.controller('productAddController', productAddController);
 
-    productAddController.$inject = ['apiService', '$scope', 'notificationService', '$state'];
+    productAddController.$inject = ['apiService', '$scope', 'notificationService', '$state','commonService'];
 
-    function productAddController(apiService, $scope, notificationService, $state) {
+    function productAddController(apiService, $scope, notificationService, $state, commonService) {
         $scope.product = {
             CreatedDate: new Date(),
             Status: true,
@@ -13,6 +13,12 @@
             height: '200px'
         }
         $scope.AddProduct = AddProduct;
+
+        $scope.GetSeoTitle = GetSeoTitle;
+
+        function GetSeoTitle() {
+            $scope.product.Alias = commonService.getSeoTitle($scope.product.Name);
+        }
 
         function AddProduct() {
             apiService.post('api/product/create', $scope.product,
