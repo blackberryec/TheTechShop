@@ -15,6 +15,7 @@ using TheTechShop.Web.Models;
 namespace TheTechShop.Web.Api
 {
     [RoutePrefix("api/productcategory")]
+    [Authorize]
     public class ProductCategoryController : ApiControllerBase
     {
         IProductCategoryService _productCategoryService;

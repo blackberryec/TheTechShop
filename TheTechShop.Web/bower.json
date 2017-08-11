@@ -12,6 +12,8 @@
     "bootbox": "~4.4.0",
     "ngBootbox": "~0.2.0",
     "ckeditor": "~4.5.9",
-    "ng-ckeditor": "~0.2.1"
+    "ng-ckeditor": "~0.2.1",
+    "angular-local-storage": "~0.2.7",
+    "angular-loading-bar": "~0.9.0"
   }
 }
