@@ -2,6 +2,7 @@
 <section class="content-header">
     <h1>
         Danh mục sản phẩm
+
     </h1>
     <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Trang chủ</a></li>
@@ -21,20 +22,20 @@
             </div>
         </div>
         <div class="box-body">
-            <div class="row">
+            <di class="row">
                 <div class="col-md-6">
                     <div class="input-group">
                         <input type="text" class="form-control" ng-model="keyword" placeholder="Từ khóa">
                         <span class="input-group-btn">
                             <button class="btn btn-default" type="button" ng-click="search()">Tìm kiếm</button>
-                            <button class="btn btn-danger" ng-click="deleteMultiple()" id="btnDelete" disabled>Xóa</button>
                         </span>
                     </div><!-- /input-group -->
                 </div>
                 <div class="col-md-6">
                     <button class="btn btn-success" ui-sref="add_product_category">Thêm mới</button>
+                    <button class="btn btn-danger" ng-click="deleteMultiple()" id="btnDelete" disabled>Xóa</button>
                 </div>
-            </div>
+            </di>
             <div class="row">
                 <div class="col-md-12">
                     <table class="table table-bordered">
@@ -51,9 +52,9 @@
                             <td>{{item.ID}}</td>
                             <td>{{item.Name}}</td>
                             <td>
-                                {{item.CreatedDate | date:'dd/MM/yyyy hh:mm:ss'}}
+                                {{item.CreatedDate  | date:'dd/MM/yyyy hh:mm:ss'}}
                             </td>
-
+                            <!--class="badge bg-red"-->
                             <td>
                                 <span ng-class="{'badge bg-red':item.Status==false,'badge bg-green':item.Status==true}">
                                     {{item.Status | statusFilter}}
@@ -66,7 +67,7 @@
                         </tr>
                         <tfoot>
                             <tr>
-                                <td colspan="5"><span class="pull-right">Trang: {{page+1}} - Tổng số bản ghi: {{totalCount}}</span></td>
+                                <td colspan="6"><span class="pull-right">Trang: {{page+1}} - Tổng số bản ghi: {{totalCount}}</span></td>
                             </tr>
                         </tfoot>
                     </table>
