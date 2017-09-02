@@ -25,6 +25,7 @@ namespace TheTechShop.Model.Models
 
         public int? DisplayOrder { set; get; }
 
+        public string Content { get; set; }
         public bool Status { set; get; }
     }
 }

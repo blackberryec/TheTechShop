@@ -21,3 +21,5 @@ F:\C# Data\TheTechShop\TheTechShop.Data\bin\Debug\Microsoft.AspNet.Identity.Core
 F:\C# Data\TheTechShop\TheTechShop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.IntergrateaspnetIdentity.resources
 F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.AddTagField.resources
+F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.csproj.CoreCompileInputs.cache
+F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.addSlide.resources

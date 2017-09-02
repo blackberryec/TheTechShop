@@ -17,3 +17,4 @@ F:\C# Data\TheTechShop\TheTechShop.Service\bin\Debug\Microsoft.AspNet.Identity.E
 F:\C# Data\TheTechShop\TheTechShop.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 F:\C# Data\TheTechShop\TheTechShop.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 F:\C# Data\TheTechShop\TheTechShop.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+F:\C# Data\TheTechShop\TheTechShop.Service\obj\Debug\TheTechShop.Service.csproj.CoreCompileInputs.cache
