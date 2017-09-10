@@ -21,6 +21,7 @@ namespace TheTechShop.Service
         IEnumerable<Product> GetLastest(int top);
 
         IEnumerable<Product> GetHotProduct(int top);
+        IEnumerable<Product> GetListProductByCategoryIdPaging(int categoryId, int page, int pageSize, out int totalRow);
 
         Product GetById(int id);
 
@@ -54,7 +55,7 @@ namespace TheTechShop.Service
                 for (var i = 0; i < tags.Length; i++)
                 {
                     var tagId = StringHelper.ToUnsignString(tags[i]);
-                    if(_tagRepository.Count(x=> x.ID == tagId) == 0)
+                    if (_tagRepository.Count(x => x.ID == tagId) == 0)
                     {
                         Tag tag = new Tag();
                         tag.ID = tagId;
@@ -109,7 +110,7 @@ namespace TheTechShop.Service
                 for (var i = 0; i < tags.Length; i++)
                 {
                     var tagId = StringHelper.ToUnsignString(tags[i]);
-                    if(_tagRepository.Count(x=>x.ID == tagId) == 0)
+                    if (_tagRepository.Count(x => x.ID == tagId) == 0)
                     {
                         Tag tag = new Tag();
                         tag.ID = tagId;
@@ -134,6 +135,15 @@ namespace TheTechShop.Service
         {
             return _productRepository.GetMulti(x => x.Status && x.HotFlag == true).OrderByDescending(x => x.CreatedDate).Take(top);
 
+        }
+
+        public IEnumerable<Product> GetListProductByCategoryIdPaging(int categoryId, int page, int pageSize, out int totalRow)
+        {
+            var query = _productRepository.GetMulti(x => x.Status && x.CategoryID == categoryId);
+
+            totalRow = query.Count();
+
+            return query.Skip((page - 1) * pageSize).Take(pageSize);
         }
     }
 }
