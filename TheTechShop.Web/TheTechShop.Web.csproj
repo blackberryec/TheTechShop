@@ -4134,6 +4134,12 @@
     <Content Include="Global.asax" />
     <Content Include="Libs\CKFinder.dll" />
     <Content Include="Resources\db.sql" />
+    <Content Include="UploadedFiles\files\DSC04729.jpg" />
+    <Content Include="UploadedFiles\files\IMG_1011.jpg" />
+    <Content Include="UploadedFiles\files\MacBook-stickers.jpg" />
+    <Content Include="UploadedFiles\_thumbs\Files\DSC04729.jpg" />
+    <Content Include="UploadedFiles\_thumbs\Files\IMG_1011.jpg" />
+    <Content Include="UploadedFiles\_thumbs\Files\MacBook-stickers.jpg" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -4150,7 +4156,7 @@
     <Folder Include="app\components\users\" />
     <Folder Include="app\shared\footer\" />
     <Folder Include="app\shared\navigation\" />
-    <Folder Include="UploadedFiles\" />
+    <Folder Include="UploadedFiles\images\" />
     <Folder Include="Views\About\" />
     <Folder Include="Views\Account\" />
     <Folder Include="Views\Post\" />

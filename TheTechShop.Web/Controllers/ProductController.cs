@@ -37,7 +37,7 @@ namespace TheTechShop.Web.Controllers
             int totalPage = (int)Math.Ceiling((double)totalRow / pageSize);
 
             var category = _productCategoryService.GetById(id);
-            ViewBag.Category = Mapper.Map<ProductCategory, ProductViewModel>(category);
+            ViewBag.Category = Mapper.Map<ProductCategory, ProductCategoryViewModel>(category);
             var paginationSet = new PaginationSet<ProductViewModel>()
             {
                 Items = productViewModel,
