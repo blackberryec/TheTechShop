@@ -5,7 +5,7 @@
     <ul class="menu">
         @foreach (var category in Model.Where(x=>x.ParentID == null))
                 {
-                    var url = "/" + category.Alias + ".pc-" + category.ID + ".html";
+                    var url = "/" + category.Alias + "/productcategory/" + category.ID;
                     var childCategories = Model.Where(x => x.ParentID == category.ID);
             <li class="item1">
                 <a href="@url">@category.Name @(childCategories.Count() > 0 ? "<img class=\"arrow-img\" src=\"/Assets/client/images/arrow1.png\" alt=\"\" />" : "") </a>
@@ -14,7 +14,7 @@
                     <ul class="cute">
                         @foreach (var childCategory in childCategories)
                         {
-                            var childUrl = "/" + childCategory.Alias + ".pc-" + childCategory.ID + ".html";
+                            var childUrl = "/" + childCategory.Alias + "/productcategory/" + childCategory.ID;
                             <li class="subitem1"><a href="@childUrl">@childCategory.Name </a></li>
                         }
                     </ul>

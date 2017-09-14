@@ -11,13 +11,13 @@
     {
         <div class="w_content">
             <div class="women">
-                <a href="/@(category.Alias).pc-@(category.ID).html"><h4>@category.Name - <span>@Model.TotalCount sản phẩm</span> </h4></a>
+                <a href="/@(category.Alias)/productcategory/@(category.ID)"><h4>@category.Name - <span>@Model.TotalCount sản phẩm</span> </h4></a>
                 <ul class="w_nav">
-                    <li>Sort : </li>
-                    <li><a class="active" href="#">popular</a></li> |
-                    <li><a href="#">new </a></li> |
-                    <li><a href="#">discount</a></li> |
-                    <li><a href="#">price: Low High </a></li>
+                    <li>Sắp xếp : </li>
+                    <li><a class="active" href="?page=@Model.Page&sort=popular">Phổ biến</a></li> |
+                    <li><a href="?page=@Model.Page&sort=new">Mới </a></li> |
+                    <li><a href="?page=@Model.Page&sort=discount">Khuyến mãi</a></li> |
+                    <li><a href="?page=@Model.Page&sort=price">Giá: Thấp -> Cao </a></li>
                     <div class="clearfix"> </div>
                 </ul>
                 <div class="clearfix"> </div>
@@ -27,7 +27,7 @@
         <div class="grid-product">
             @foreach (var product in Model.Items)
             {
-                var url = "/" + product.Alias + ".p-" + product.ID;
+                var url = "/" + product.Alias + "/product/" + product.ID;
                 <div class="product-grid">
                     <div class="content_box">
                         <a href="@url">
