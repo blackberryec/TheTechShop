@@ -8,12 +8,19 @@ namespace TheTechShop.Web
         public static void RegisterRoutes(RouteCollection routes)
         {
          routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
-        // routes.MapRoute(
-        // name: "Login",
-        // url: "dang-nhap.html",
-        // defaults: new { controller = "Account", action = "Login", id = UrlParameter.Optional },
-        // namespaces: new string[] { "TheTechShop.Web.Controllers" }
-        //);
+
+          routes.MapRoute(
+              name: "Search",
+              url: "Tim-Kiem",
+              defaults: new { controller = "Product", action = "Search", id = UrlParameter.Optional },
+              namespaces: new string[] { "TheTechShop.Web.Controllers" }
+          );
+            routes.MapRoute(
+         name: "Login",
+         url: "dang-nhap.html",
+         defaults: new { controller = "Account", action = "Login", id = UrlParameter.Optional },
+         namespaces: new string[] { "TheTechShop.Web.Controllers" }
+        );
         // routes.MapRoute(
         // name: "About",
         // url: "gioi-thieu.html",
