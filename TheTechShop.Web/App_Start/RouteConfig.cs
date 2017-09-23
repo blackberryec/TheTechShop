@@ -33,12 +33,12 @@ namespace TheTechShop.Web
          defaults: new { controller = "Product", action = "Category", id = UrlParameter.Optional },
          namespaces: new string[] { "TheTechShop.Web.Controllers" }
          );
-        // routes.MapRoute(
-        // name: "Product",
-        // url: "{alias}.p-{productId}.html",
-        // defaults: new { controller = "Product", action = "Detail", productId = UrlParameter.Optional },
-        // namespaces: new string[] { "TheTechShop.Web.Controllers" }
-        // );
+         routes.MapRoute(
+         name: "Product",
+         url: "{alias}/p/{productId}",
+         defaults: new { controller = "Product", action = "Detail", productId = UrlParameter.Optional },
+         namespaces: new string[] { "TheTechShop.Web.Controllers" }
+         );
          routes.MapRoute(
          name: "Default",
          url: "{controller}/{action}/{id}",
