@@ -80,6 +80,10 @@
     <Compile Include="Migrations\201709230526389_addMorePropQuantityProduct.Designer.cs">
       <DependentUpon>201709230526389_addMorePropQuantityProduct.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709230912014_foreignKeyProductTagVsProduct.cs" />
+    <Compile Include="Migrations\201709230912014_foreignKeyProductTagVsProduct.Designer.cs">
+      <DependentUpon>201709230912014_foreignKeyProductTagVsProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\ErrorRepository.cs" />
@@ -131,6 +135,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201709230526389_addMorePropQuantityProduct.resx">
       <DependentUpon>201709230526389_addMorePropQuantityProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709230912014_foreignKeyProductTagVsProduct.resx">
+      <DependentUpon>201709230912014_foreignKeyProductTagVsProduct.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -27,6 +27,12 @@ namespace TheTechShop.Web
         // defaults: new { controller = "About", action = "Index", id = UrlParameter.Optional },
         // namespaces: new string[] { "TheTechShop.Web.Controllers" }
         //);
+           routes.MapRoute(
+             name: "TagList",
+             url: "tag/{tagId}",
+             defaults: new { controller = "Product", action = "ListByTag", tagId = UrlParameter.Optional },
+               namespaces: new string[] { "TheTechShop.Web.Controllers" }
+         );
          routes.MapRoute(
          name: "Product Category",
          url: "{alias}/productcategory/{id}",

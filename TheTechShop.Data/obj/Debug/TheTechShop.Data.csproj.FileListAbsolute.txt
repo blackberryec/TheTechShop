@@ -24,3 +24,4 @@ F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.csproj.CoreCo
 F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.dll
 F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.pdb
 F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.addMorePropQuantityProduct.resources
+F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.foreignKeyProductTagVsProduct.resources
