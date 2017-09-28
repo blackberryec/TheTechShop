@@ -13,3 +13,17 @@ F:\C# Data\TheTechShop\TheTechShop.Model\obj\Debug\TheTechShop.Model.csprojResol
 F:\C# Data\TheTechShop\TheTechShop.Model\obj\Debug\TheTechShop.Model.csproj.CoreCompileInputs.cache
 F:\C# Data\TheTechShop\TheTechShop.Model\obj\Debug\TheTechShop.Model.dll
 F:\C# Data\TheTechShop\TheTechShop.Model\obj\Debug\TheTechShop.Model.pdb
+E:\TheTechShop\TheTechShop.Model\bin\Debug\TheTechShop.Model.dll.config
+E:\TheTechShop\TheTechShop.Model\bin\Debug\TheTechShop.Model.dll
+E:\TheTechShop\TheTechShop.Model\bin\Debug\TheTechShop.Model.pdb
+E:\TheTechShop\TheTechShop.Model\bin\Debug\EntityFramework.dll
+E:\TheTechShop\TheTechShop.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\TheTechShop\TheTechShop.Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\TheTechShop\TheTechShop.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\TheTechShop\TheTechShop.Model\bin\Debug\EntityFramework.xml
+E:\TheTechShop\TheTechShop.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\TheTechShop\TheTechShop.Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\TheTechShop\TheTechShop.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\TheTechShop\TheTechShop.Model\obj\Debug\TheTechShop.Model.csprojResolveAssemblyReference.cache
+E:\TheTechShop\TheTechShop.Model\obj\Debug\TheTechShop.Model.dll
+E:\TheTechShop\TheTechShop.Model\obj\Debug\TheTechShop.Model.pdb

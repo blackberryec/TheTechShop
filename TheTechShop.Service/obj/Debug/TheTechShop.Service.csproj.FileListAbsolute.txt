@@ -18,3 +18,22 @@ F:\C# Data\TheTechShop\TheTechShop.Service\obj\Debug\TheTechShop.Service.csprojR
 F:\C# Data\TheTechShop\TheTechShop.Service\obj\Debug\TheTechShop.Service.csproj.CoreCompileInputs.cache
 F:\C# Data\TheTechShop\TheTechShop.Service\obj\Debug\TheTechShop.Service.dll
 F:\C# Data\TheTechShop\TheTechShop.Service\obj\Debug\TheTechShop.Service.pdb
+E:\TheTechShop\TheTechShop.Service\bin\Debug\TheTechShop.Service.dll
+E:\TheTechShop\TheTechShop.Service\bin\Debug\TheTechShop.Service.pdb
+E:\TheTechShop\TheTechShop.Service\bin\Debug\TheTechShop.Common.dll
+E:\TheTechShop\TheTechShop.Service\bin\Debug\TheTechShop.Data.dll
+E:\TheTechShop\TheTechShop.Service\bin\Debug\TheTechShop.Model.dll
+E:\TheTechShop\TheTechShop.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\TheTechShop\TheTechShop.Service\bin\Debug\EntityFramework.dll
+E:\TheTechShop\TheTechShop.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\TheTechShop\TheTechShop.Service\bin\Debug\TheTechShop.Common.pdb
+E:\TheTechShop\TheTechShop.Service\bin\Debug\TheTechShop.Data.pdb
+E:\TheTechShop\TheTechShop.Service\bin\Debug\TheTechShop.Data.dll.config
+E:\TheTechShop\TheTechShop.Service\bin\Debug\TheTechShop.Model.pdb
+E:\TheTechShop\TheTechShop.Service\bin\Debug\TheTechShop.Model.dll.config
+E:\TheTechShop\TheTechShop.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\TheTechShop\TheTechShop.Service\bin\Debug\EntityFramework.xml
+E:\TheTechShop\TheTechShop.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\TheTechShop\TheTechShop.Service\obj\Debug\TheTechShop.Service.csprojResolveAssemblyReference.cache
+E:\TheTechShop\TheTechShop.Service\obj\Debug\TheTechShop.Service.dll
+E:\TheTechShop\TheTechShop.Service\obj\Debug\TheTechShop.Service.pdb

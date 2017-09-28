@@ -21,13 +21,19 @@ namespace TheTechShop.Web
          defaults: new { controller = "Account", action = "Login", id = UrlParameter.Optional },
          namespaces: new string[] { "TheTechShop.Web.Controllers" }
         );
-        // routes.MapRoute(
-        // name: "About",
-        // url: "gioi-thieu.html",
-        // defaults: new { controller = "About", action = "Index", id = UrlParameter.Optional },
-        // namespaces: new string[] { "TheTechShop.Web.Controllers" }
-        //);
-           routes.MapRoute(
+            routes.MapRoute(
+           name: "Page",
+           url: "trang/{alias}",
+           defaults: new { controller = "Page", action = "Index", alias = UrlParameter.Optional },
+           namespaces: new string[] { "TheTechShop.Web.Controllers" }
+       );
+            // routes.MapRoute(
+            // name: "About",
+            // url: "gioi-thieu.html",
+            // defaults: new { controller = "About", action = "Index", id = UrlParameter.Optional },
+            // namespaces: new string[] { "TheTechShop.Web.Controllers" }
+            //);
+            routes.MapRoute(
              name: "TagList",
              url: "tag/{tagId}",
              defaults: new { controller = "Product", action = "ListByTag", tagId = UrlParameter.Optional },
