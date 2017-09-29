@@ -1,7 +1,9 @@
 ﻿namespace TheTechShop.Data.Migrations
 {
+    using Common;
     using Microsoft.AspNet.Identity;
     using Microsoft.AspNet.Identity.EntityFramework;
+    using Model.Models;
     using System;
     using System.Collections.Generic;
     using System.Data.Entity;
@@ -9,8 +11,6 @@
     using System.Data.Entity.Validation;
     using System.Diagnostics;
     using System.Linq;
-    using TheTechShop.Common;
-    using TheTechShop.Model.Models;
 
     internal sealed class Configuration : DbMigrationsConfiguration<TheTechShop.Data.TheTechShopDbContext>
     {
@@ -21,15 +21,46 @@
 
         protected override void Seed(TheTechShop.Data.TheTechShopDbContext context)
         {
+            //CreateUser(context);
             CreateProductCategorySample(context);
             CreateSlide(context);
-            CreatePage(context);
-
+            CreateFooter(context);
             //  This method will be called after migrating to the latest version.
+            CreatePage(context);
+            CreateContactDetail(context);
 
 
         }
-        private void CreateProductCategorySample(TheTechShop.Data.TheTechShopDbContext context)
+        private void CreateUser(TheTechShopDbContext context)
+        {
+            //var manager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new TheTechShopDbContext()));
+
+            //var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(new TheTechShopDbContext()));
+
+            //var user = new ApplicationUser()
+            //{
+            //    UserName = "hai",
+            //    Email = "a@gmail.com",
+            //    EmailConfirmed = true,
+            //    BirthDay = DateTime.Now,
+            //    FullName = "Tran nam hai"
+
+            //};
+
+            //manager.Create(user, "123654$");
+
+            //if (!roleManager.Roles.Any())
+            //{
+            //    roleManager.Create(new IdentityRole { Name = "Admin" });
+            //    roleManager.Create(new IdentityRole { Name = "User" });
+            //}
+
+            //var adminUser = manager.FindByEmail("trannamhaibp@gmail.com");
+
+            //manager.AddToRoles(adminUser.Id, new string[] { "Admin", "User" });
+        }
+
+        private void CreateProductCategorySample(TheTechShopDbContext context)
         {
             if (context.ProductCategories.Count() == 0)
             {
@@ -45,65 +76,11 @@
             }
 
         }
-
-        private void CreateUser(TheTechShopDbContext context)
-        {
-            //var manager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new TeduShopDbContext()));
-
-            //var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(new TeduShopDbContext()));
-
-            //var user = new ApplicationUser()
-            //{
-            //    UserName = "tedu",
-            //    Email = "tedu.international@gmail.com",
-            //    EmailConfirmed = true,
-            //    BirthDay = DateTime.Now,
-            //    FullName = "Technology Education"
-
-            //};
-
-            //manager.Create(user, "123654$");
-
-            //if (!roleManager.Roles.Any())
-            //{
-            //    roleManager.Create(new IdentityRole { Name = "Admin" });
-            //    roleManager.Create(new IdentityRole { Name = "User" });
-            //}
-
-            //var adminUser = manager.FindByEmail("tedu.international@gmail.com");
-
-            //manager.AddToRoles(adminUser.Id, new string[] { "Admin", "User" });
-            var manager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new TheTechShopDbContext()));
-
-            var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(new TheTechShopDbContext()));
-
-            var user = new ApplicationUser()
-            {
-                UserName = "thetech",
-                Email = "thetech@gmail.com",
-                EmailConfirmed = true,
-                BirthDay = DateTime.Now,
-                FullName = "website ecomerce"
-
-            };
-
-            manager.Create(user, "123456");
-
-            if (!roleManager.Roles.Any())
-            {
-                roleManager.Create(new IdentityRole { Name = "Admin" });
-                roleManager.Create(new IdentityRole { Name = "User" });
-            }
-
-            var adminUser = manager.FindByEmail("thetech@gmail.com");
-
-            manager.AddToRoles(adminUser.Id, new string[] { "Admin", "User" });
-        }
         private void CreateFooter(TheTechShopDbContext context)
         {
             if (context.Footers.Count(x => x.ID == CommonConstants.DefaultFooterId) == 0)
             {
-                string content = "";
+                string content = "TheTechShop";
             }
         }
 
@@ -141,6 +118,7 @@
                 context.SaveChanges();
             }
         }
+
         private void CreatePage(TheTechShopDbContext context)
         {
             if (context.Pages.Count() == 0)
@@ -156,6 +134,43 @@
 
                     };
                     context.Pages.Add(page);
+                    context.SaveChanges();
+                }
+                catch (DbEntityValidationException ex)
+                {
+                    foreach (var eve in ex.EntityValidationErrors)
+                    {
+                        Trace.WriteLine($"Entity of type \"{eve.Entry.Entity.GetType().Name}\" in state \"{eve.Entry.State}\" has the following validation error.");
+                        foreach (var ve in eve.ValidationErrors)
+                        {
+                            Trace.WriteLine($"- Property: \"{ve.PropertyName}\", Error: \"{ve.ErrorMessage}\"");
+                        }
+                    }
+                }
+
+            }
+        }
+
+        private void CreateContactDetail(TheTechShopDbContext context)
+        {
+            if (context.ContactDetails.Count() == 0)
+            {
+                try
+                {
+                    var contactDetail = new ContactDetail()
+                    {
+                        Name = "Shop",
+                        Address = "Bình Thạnh",
+                        Email = "trannamhaibp@gmail.com",
+                        Lat = 10.8045657,
+                        Lng = 106.6945956,
+                        Phone = "0963177497",
+                        Website = "http://thetech.com.vn",
+                        Order = "",
+                        Status = true
+
+                    };
+                    context.ContactDetails.Add(contactDetail);
                     context.SaveChanges();
                 }
                 catch (DbEntityValidationException ex)
