@@ -51,3 +51,4 @@ E:\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.foreignKey
 E:\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.csproj.GenerateResource.Cache
 E:\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.dll
 E:\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.pdb
+F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.newpc.resources
