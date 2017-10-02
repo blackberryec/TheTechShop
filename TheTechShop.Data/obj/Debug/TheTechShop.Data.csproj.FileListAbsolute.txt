@@ -52,3 +52,5 @@ E:\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.csproj.GenerateResour
 E:\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.dll
 E:\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.pdb
 F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.newpc.resources
+E:\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.csproj.CoreCompileInputs.cache
+E:\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.addFeedbackTable.resources

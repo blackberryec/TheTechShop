@@ -37,3 +37,4 @@ E:\TheTechShop\TheTechShop.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 E:\TheTechShop\TheTechShop.Service\obj\Debug\TheTechShop.Service.csprojResolveAssemblyReference.cache
 E:\TheTechShop\TheTechShop.Service\obj\Debug\TheTechShop.Service.dll
 E:\TheTechShop\TheTechShop.Service\obj\Debug\TheTechShop.Service.pdb
+E:\TheTechShop\TheTechShop.Service\obj\Debug\TheTechShop.Service.csproj.CoreCompileInputs.cache

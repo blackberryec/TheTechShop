@@ -40,6 +40,8 @@ namespace TheTechShop.Data
 
         public DbSet<ContactDetail> ContactDetails { set; get; }
 
+        public DbSet<Feedback> Feedbacks { set; get; }
+
         public static TheTechShopDbContext Create()
         {
             return new TheTechShopDbContext();

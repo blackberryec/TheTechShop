@@ -7,9 +7,12 @@ namespace TheTechShop.Web
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
-         routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-          routes.MapRoute(
+            // BotDetect requests must not be routed
+            routes.IgnoreRoute("{*botdetect}", new { botdetect = @"(.*)BotDetectCaptcha\.ashx" });
+
+            routes.MapRoute(
               name: "Search",
               url: "Tim-Kiem",
               defaults: new { controller = "Product", action = "Search", id = UrlParameter.Optional },

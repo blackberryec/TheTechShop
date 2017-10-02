@@ -209,3 +209,6 @@ F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\System.IO.FileSyste
 F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\System.Reflection.Metadata.dll
 F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\vbc.exe
 F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\VBCSCompiler.exe
+E:\TheTechShop\TheTechShop.UnitTest\obj\Debug\TheTechShop.UnitTest.csproj.CoreCompileInputs.cache
+E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\BotDetect.Web.Mvc.dll
+E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\BotDetect.dll

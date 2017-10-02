@@ -28,8 +28,6 @@
             //  This method will be called after migrating to the latest version.
             CreatePage(context);
             CreateContactDetail(context);
-
-
         }
         private void CreateUser(TheTechShopDbContext context)
         {
@@ -80,7 +78,13 @@
         {
             if (context.Footers.Count(x => x.ID == CommonConstants.DefaultFooterId) == 0)
             {
-                string content = "TheTechShop";
+                var footer = new Footer()
+                {
+                    ID = "default",
+                    Content = "TheTechShop"
+                };
+                context.Footers.Add(footer);
+                context.SaveChanges();
             }
         }
 

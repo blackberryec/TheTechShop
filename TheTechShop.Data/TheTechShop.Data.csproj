@@ -84,14 +84,15 @@
     <Compile Include="Migrations\201709230912014_foreignKeyProductTagVsProduct.Designer.cs">
       <DependentUpon>201709230912014_foreignKeyProductTagVsProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201710011301565_newpc.cs" />
-    <Compile Include="Migrations\201710011301565_newpc.Designer.cs">
-      <DependentUpon>201710011301565_newpc.cs</DependentUpon>
+    <Compile Include="Migrations\201710020657028_addFeedbackTable.cs" />
+    <Compile Include="Migrations\201710020657028_addFeedbackTable.Designer.cs">
+      <DependentUpon>201710020657028_addFeedbackTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\ContactDetailRepository.cs" />
     <Compile Include="Repositories\ErrorRepository.cs" />
+    <Compile Include="Repositories\FeedbackRepository.cs" />
     <Compile Include="Repositories\FooterRepository.cs" />
     <Compile Include="Repositories\MenuGroupRepository.cs" />
     <Compile Include="Repositories\MenuRepository.cs" />
@@ -144,8 +145,8 @@
     <EmbeddedResource Include="Migrations\201709230912014_foreignKeyProductTagVsProduct.resx">
       <DependentUpon>201709230912014_foreignKeyProductTagVsProduct.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201710011301565_newpc.resx">
-      <DependentUpon>201710011301565_newpc.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201710020657028_addFeedbackTable.resx">
+      <DependentUpon>201710020657028_addFeedbackTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

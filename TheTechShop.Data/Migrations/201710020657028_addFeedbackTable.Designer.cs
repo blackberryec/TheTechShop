@@ -7,13 +7,13 @@ namespace TheTechShop.Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class newpc : IMigrationMetadata
+    public sealed partial class addFeedbackTable : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(newpc));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(addFeedbackTable));
         
         string IMigrationMetadata.Id
         {
-            get { return "201710011301565_newpc"; }
+            get { return "201710020657028_addFeedbackTable"; }
         }
         
         string IMigrationMetadata.Source

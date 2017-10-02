@@ -9,3 +9,4 @@ E:\TheTechShop\TheTechShop.Common\bin\Debug\TheTechShop.Common.pdb
 E:\TheTechShop\TheTechShop.Common\obj\Debug\TheTechShop.Common.csprojResolveAssemblyReference.cache
 E:\TheTechShop\TheTechShop.Common\obj\Debug\TheTechShop.Common.dll
 E:\TheTechShop\TheTechShop.Common\obj\Debug\TheTechShop.Common.pdb
+E:\TheTechShop\TheTechShop.Common\obj\Debug\TheTechShop.Common.csproj.CoreCompileInputs.cache

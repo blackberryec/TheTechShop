@@ -27,3 +27,4 @@ E:\TheTechShop\TheTechShop.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFrame
 E:\TheTechShop\TheTechShop.Model\obj\Debug\TheTechShop.Model.csprojResolveAssemblyReference.cache
 E:\TheTechShop\TheTechShop.Model\obj\Debug\TheTechShop.Model.dll
 E:\TheTechShop\TheTechShop.Model\obj\Debug\TheTechShop.Model.pdb
+E:\TheTechShop\TheTechShop.Model\obj\Debug\TheTechShop.Model.csproj.CoreCompileInputs.cache
