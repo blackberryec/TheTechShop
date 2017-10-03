@@ -36,7 +36,8 @@ namespace TheTechShop.Web.App_Start
             });
             app.UseOAuthBearerAuthentication(new OAuthBearerAuthenticationOptions());
 
-
+            var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(new TheTechShopDbContext()));
+            roleManager.Create(new IdentityRole("User"));
             // Uncomment the following lines to enable logging in with third party login providers
             //app.UseMicrosoftAccountAuthentication(
             //    clientId: "",
