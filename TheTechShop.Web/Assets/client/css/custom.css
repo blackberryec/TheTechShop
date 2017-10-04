@@ -5,7 +5,12 @@
 .taglist li {
     float: left;
 }
-.register-top-grid input[type="password"], .register-bottom-grid input[type="password"] {
+
+.error {
+    color: red;
+}
+
+.register-top-grid input[type="password"], .register-bottom-grid input[type="password"], .login-right input[type="password"] {
     border: 1px solid #EEE;
     outline-color: #FF5B36;
     width: 85%;

@@ -212,3 +212,5 @@ F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\VBCSCompiler.exe
 E:\TheTechShop\TheTechShop.UnitTest\obj\Debug\TheTechShop.UnitTest.csproj.CoreCompileInputs.cache
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\BotDetect.Web.Mvc.dll
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\BotDetect.dll
+E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\System.Web.Http.Owin.dll
+E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\System.Web.Http.Owin.xml

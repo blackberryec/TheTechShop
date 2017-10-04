@@ -226,3 +226,5 @@ E:\TheTechShop\TheTechShop.Web\obj\Debug\TheTechShop.Web.pdb
 E:\TheTechShop\TheTechShop.Web\obj\Debug\TheTechShop.Web.csproj.CoreCompileInputs.cache
 E:\TheTechShop\TheTechShop.Web\bin\BotDetect.dll
 E:\TheTechShop\TheTechShop.Web\bin\BotDetect.Web.Mvc.dll
+E:\TheTechShop\TheTechShop.Web\bin\System.Web.Http.Owin.dll
+E:\TheTechShop\TheTechShop.Web\bin\System.Web.Http.Owin.xml
