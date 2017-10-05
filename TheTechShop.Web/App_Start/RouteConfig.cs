@@ -14,7 +14,7 @@ namespace TheTechShop.Web
 
             routes.MapRoute(
                name: "Search",
-               url: "Tim-Kiem",
+               url: "Search",
                defaults: new { controller = "Product", action = "Search", id = UrlParameter.Optional },
                namespaces: new string[] { "TheTechShop.Web.Controllers" }
             );
@@ -23,6 +23,12 @@ namespace TheTechShop.Web
                url: "Login",
                defaults: new { controller = "Account", action = "Login", id = UrlParameter.Optional },
                namespaces: new string[] { "TheTechShop.Web.Controllers" }
+            );
+            routes.MapRoute(
+                name: "Cart",
+                url: "Cart",
+                defaults: new { controller = "ShoppingCart", action = "Index", id = UrlParameter.Optional },
+                namespaces: new string[] { "TheTechShop.Web.Controllers" }
             );
             routes.MapRoute(
                name: "Register",
