@@ -37,6 +37,12 @@ namespace TheTechShop.Web
                namespaces: new string[] { "TheTechShop.Web.Controllers" }
             );
             routes.MapRoute(
+               name: "Checkout",
+               url: "Checkout",
+               defaults: new { controller = "ShoppingCart", action = "Index", id = UrlParameter.Optional },
+               namespaces: new string[] { "TheTechShop.Web.Controllers" }
+            );
+            routes.MapRoute(
                name: "Page",
                url: "trang/{alias}",
                defaults: new { controller = "Page", action = "Index", alias = UrlParameter.Optional },

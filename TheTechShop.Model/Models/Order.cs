@@ -40,6 +40,13 @@ namespace TheTechShop.Model.Models
         public string PaymentStatus { set; get; }
         public bool Status { set; get; }
 
+        [StringLength(128)]
+        [Column(TypeName = "nvarchar")]
+        public string CustomerId { get; set; }
+
+        [ForeignKey("CustomerId")]
+        public virtual ApplicationUser user { set; get; }
+
         public virtual IEnumerable<OrderDetail> OrderDetails { set; get; }
     }
 }
