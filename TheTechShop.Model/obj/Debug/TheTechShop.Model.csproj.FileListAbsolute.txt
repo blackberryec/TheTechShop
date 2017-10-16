@@ -25,6 +25,6 @@ E:\TheTechShop\TheTechShop.Model\bin\Debug\EntityFramework.SqlServer.xml
 E:\TheTechShop\TheTechShop.Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 E:\TheTechShop\TheTechShop.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 E:\TheTechShop\TheTechShop.Model\obj\Debug\TheTechShop.Model.csprojResolveAssemblyReference.cache
+E:\TheTechShop\TheTechShop.Model\obj\Debug\TheTechShop.Model.csproj.CoreCompileInputs.cache
 E:\TheTechShop\TheTechShop.Model\obj\Debug\TheTechShop.Model.dll
 E:\TheTechShop\TheTechShop.Model\obj\Debug\TheTechShop.Model.pdb
-E:\TheTechShop\TheTechShop.Model\obj\Debug\TheTechShop.Model.csproj.CoreCompileInputs.cache

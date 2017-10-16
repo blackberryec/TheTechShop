@@ -20,6 +20,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!--fonts-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
     <!--//fonts-->
+    <style>
+        .ui-autocomplete {
+            z-index: 1000
+        }
+    </style>
 
 </head>
 <body>
@@ -33,10 +38,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
     @{ Html.RenderAction("Footer", "Home");}
     <div class="clearfix"> </div>
+
     <script src="/Assets/client/js/jquery.min.js"></script>
     <script src="~/Assets/admin/libs/jquery-ui/jquery-ui.js"></script>
     <script src="~/Assets/admin/libs/numeral/numeral.js"></script>
     <script src="~/Assets/admin/libs/mustache/mustache.js"></script>
+    <script src="~/Assets/admin/libs/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/Assets/admin/libs/jquery-validation/dist/additional-methods.min.js"></script>
+
     <script src="~/Assets/client/js/common.js"></script>
     @RenderSection("footerJS", required: false)
 </body>

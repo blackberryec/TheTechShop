@@ -7,7 +7,7 @@
             minLength: 0,
             source: function (request, response) {
                 $.ajax({
-                    url: "/Product/GetProductByName",
+                    url: "/Product/GetListProductByName",
                     dataType: "json",
                     data: {
                         keyword: request.term

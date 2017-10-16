@@ -25,6 +25,7 @@ F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.dll
 F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.pdb
 F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.addMorePropQuantityProduct.resources
 F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.foreignKeyProductTagVsProduct.resources
+F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.newpc.resources
 E:\TheTechShop\TheTechShop.Data\bin\Debug\TheTechShop.Data.dll.config
 E:\TheTechShop\TheTechShop.Data\bin\Debug\TheTechShop.Data.dll
 E:\TheTechShop\TheTechShop.Data\bin\Debug\TheTechShop.Data.pdb
@@ -48,9 +49,9 @@ E:\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.AddTagFiel
 E:\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.addSlide.resources
 E:\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.addMorePropQuantityProduct.resources
 E:\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.foreignKeyProductTagVsProduct.resources
+E:\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.addFeedbackTable.resources
+E:\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.addforeignkey.resources
 E:\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.csproj.GenerateResource.Cache
+E:\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.csproj.CoreCompileInputs.cache
 E:\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.dll
 E:\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.pdb
-F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.newpc.resources
-E:\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.csproj.CoreCompileInputs.cache
-E:\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.addFeedbackTable.resources

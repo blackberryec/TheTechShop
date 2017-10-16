@@ -78,6 +78,32 @@ F:\C# Data\TheTechShop\TheTechShop.UnitTest\obj\Debug\TheTechShop.UnitTest.cspro
 F:\C# Data\TheTechShop\TheTechShop.UnitTest\obj\Debug\TheTechShop.UnitTest.csproj.CoreCompileInputs.cache
 F:\C# Data\TheTechShop\TheTechShop.UnitTest\obj\Debug\TheTechShop.UnitTest.dll
 F:\C# Data\TheTechShop\TheTechShop.UnitTest\obj\Debug\TheTechShop.UnitTest.pdb
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\csc.exe.config
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\csc.rsp
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\csi.rsp
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\vbc.exe.config
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\vbc.rsp
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\VBCSCompiler.exe.config
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\csc.exe
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\csi.exe
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\System.AppContext.dll
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\System.Collections.Immutable.dll
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\System.Diagnostics.StackTrace.dll
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\System.IO.FileSystem.dll
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\System.IO.FileSystem.Primitives.dll
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\System.Reflection.Metadata.dll
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\vbc.exe
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\VBCSCompiler.exe
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\csc.exe
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\csc.exe.config
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\csc.rsp
@@ -127,23 +153,26 @@ E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\Microsoft.Owin.dll
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\System.Web.Optimization.dll
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\System.Web.Mvc.dll
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\System.Web.Http.dll
+E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\BotDetect.Web.Mvc.dll
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\Microsoft.Owin.Security.dll
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\Owin.dll
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\Autofac.dll
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\System.Web.Http.Owin.dll
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\System.Web.Http.WebHost.dll
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\AutoMapper.dll
+E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\Microsoft.Owin.Security.Cookies.dll
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\Autofac.Integration.Mvc.dll
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\Autofac.Integration.WebApi.dll
-E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\System.Net.Http.Formatting.dll
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\Microsoft.Web.Infrastructure.dll
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\System.Web.Razor.dll
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\System.Web.WebPages.Razor.dll
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\System.Web.WebPages.dll
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\Newtonsoft.Json.dll
-E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\BotDetect.dll
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\System.Web.WebPages.Deployment.dll
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\TheTechShop.Common.pdb
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\TheTechShop.Data.pdb
@@ -168,49 +197,20 @@ E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\Microsoft.Owin.Security.xml
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\Autofac.xml
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\System.Web.Http.Owin.xml
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\System.Web.Http.WebHost.xml
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\AutoMapper.xml
+E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\Microsoft.Owin.Security.Cookies.xml
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\Autofac.Integration.Mvc.xml
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\Autofac.Integration.WebApi.xml
-E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\System.Net.Http.Formatting.xml
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\System.Web.Razor.xml
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\System.Web.WebPages.Razor.xml
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\System.Web.WebPages.xml
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\Newtonsoft.Json.xml
-E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\Microsoft.Owin.Security.Cookies.xml
 E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\System.Web.WebPages.Deployment.xml
 E:\TheTechShop\TheTechShop.UnitTest\obj\Debug\TheTechShop.UnitTest.csprojResolveAssemblyReference.cache
+E:\TheTechShop\TheTechShop.UnitTest\obj\Debug\TheTechShop.UnitTest.csproj.CoreCompileInputs.cache
 E:\TheTechShop\TheTechShop.UnitTest\obj\Debug\TheTechShop.UnitTest.dll
 E:\TheTechShop\TheTechShop.UnitTest\obj\Debug\TheTechShop.UnitTest.pdb
-F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\csc.exe.config
-F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\csc.rsp
-F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\csi.rsp
-F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
-F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
-F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\vbc.exe.config
-F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\vbc.rsp
-F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\VBCSCompiler.exe.config
-F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\csc.exe
-F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\csi.exe
-F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
-F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\System.AppContext.dll
-F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\System.Collections.Immutable.dll
-F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\System.Diagnostics.StackTrace.dll
-F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\System.IO.FileSystem.dll
-F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\System.IO.FileSystem.Primitives.dll
-F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\System.Reflection.Metadata.dll
-F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\vbc.exe
-F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\roslyn\VBCSCompiler.exe
-E:\TheTechShop\TheTechShop.UnitTest\obj\Debug\TheTechShop.UnitTest.csproj.CoreCompileInputs.cache
-E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\BotDetect.Web.Mvc.dll
-E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\BotDetect.dll
-E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\System.Web.Http.Owin.dll
-E:\TheTechShop\TheTechShop.UnitTest\bin\Debug\System.Web.Http.Owin.xml

@@ -145,6 +145,8 @@ E:\TheTechShop\TheTechShop.Web\bin\Autofac.dll
 E:\TheTechShop\TheTechShop.Web\bin\Autofac.Integration.Mvc.dll
 E:\TheTechShop\TheTechShop.Web\bin\Autofac.Integration.WebApi.dll
 E:\TheTechShop\TheTechShop.Web\bin\AutoMapper.dll
+E:\TheTechShop\TheTechShop.Web\bin\BotDetect.dll
+E:\TheTechShop\TheTechShop.Web\bin\BotDetect.Web.Mvc.dll
 E:\TheTechShop\TheTechShop.Web\bin\CKFinder.dll
 E:\TheTechShop\TheTechShop.Web\bin\EntityFramework.dll
 E:\TheTechShop\TheTechShop.Web\bin\EntityFramework.SqlServer.dll
@@ -170,6 +172,7 @@ E:\TheTechShop\TheTechShop.Web\bin\Owin.dll
 E:\TheTechShop\TheTechShop.Web\bin\System.Net.Http.Formatting.dll
 E:\TheTechShop\TheTechShop.Web\bin\System.Web.Helpers.dll
 E:\TheTechShop\TheTechShop.Web\bin\System.Web.Http.dll
+E:\TheTechShop\TheTechShop.Web\bin\System.Web.Http.Owin.dll
 E:\TheTechShop\TheTechShop.Web\bin\System.Web.Http.WebHost.dll
 E:\TheTechShop\TheTechShop.Web\bin\System.Web.Mvc.dll
 E:\TheTechShop\TheTechShop.Web\bin\System.Web.Optimization.dll
@@ -203,6 +206,7 @@ E:\TheTechShop\TheTechShop.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
 E:\TheTechShop\TheTechShop.Web\bin\Microsoft.Owin.Security.xml
 E:\TheTechShop\TheTechShop.Web\bin\Microsoft.Owin.Security.Cookies.xml
 E:\TheTechShop\TheTechShop.Web\bin\Microsoft.Owin.Security.OAuth.xml
+E:\TheTechShop\TheTechShop.Web\bin\System.Web.Http.Owin.xml
 E:\TheTechShop\TheTechShop.Web\bin\System.Web.Helpers.xml
 E:\TheTechShop\TheTechShop.Web\bin\System.Web.Mvc.xml
 E:\TheTechShop\TheTechShop.Web\bin\System.Web.Optimization.xml
@@ -221,10 +225,6 @@ E:\TheTechShop\TheTechShop.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
 E:\TheTechShop\TheTechShop.Web\bin\Microsoft.AI.WindowsServer.xml
 E:\TheTechShop\TheTechShop.Web\bin\Microsoft.AI.Web.xml
 E:\TheTechShop\TheTechShop.Web\obj\Debug\TheTechShop.Web.csprojResolveAssemblyReference.cache
+E:\TheTechShop\TheTechShop.Web\obj\Debug\TheTechShop.Web.csproj.CoreCompileInputs.cache
 E:\TheTechShop\TheTechShop.Web\obj\Debug\TheTechShop.Web.dll
 E:\TheTechShop\TheTechShop.Web\obj\Debug\TheTechShop.Web.pdb
-E:\TheTechShop\TheTechShop.Web\obj\Debug\TheTechShop.Web.csproj.CoreCompileInputs.cache
-E:\TheTechShop\TheTechShop.Web\bin\BotDetect.dll
-E:\TheTechShop\TheTechShop.Web\bin\BotDetect.Web.Mvc.dll
-E:\TheTechShop\TheTechShop.Web\bin\System.Web.Http.Owin.dll
-E:\TheTechShop\TheTechShop.Web\bin\System.Web.Http.Owin.xml

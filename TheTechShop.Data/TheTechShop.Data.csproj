@@ -88,6 +88,10 @@
     <Compile Include="Migrations\201710020657028_addFeedbackTable.Designer.cs">
       <DependentUpon>201710020657028_addFeedbackTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710110706149_addforeignkey.cs" />
+    <Compile Include="Migrations\201710110706149_addforeignkey.Designer.cs">
+      <DependentUpon>201710110706149_addforeignkey.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\ContactDetailRepository.cs" />
@@ -147,6 +151,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201710020657028_addFeedbackTable.resx">
       <DependentUpon>201710020657028_addFeedbackTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710110706149_addforeignkey.resx">
+      <DependentUpon>201710110706149_addforeignkey.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

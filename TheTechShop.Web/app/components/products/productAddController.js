@@ -1,7 +1,7 @@
 ﻿(function (app) {
     app.controller('productAddController', productAddController);
 
-    productAddController.$inject = ['apiService', '$scope', 'notificationService', '$state','commonService'];
+    productAddController.$inject = ['apiService', '$scope', 'notificationService', '$state', 'commonService'];
 
     function productAddController(apiService, $scope, notificationService, $state, commonService) {
         $scope.product = {
@@ -19,6 +19,7 @@
         function GetSeoTitle() {
             $scope.product.Alias = commonService.getSeoTitle($scope.product.Name);
         }
+
 
         function AddProduct() {
 
@@ -38,11 +39,12 @@
                 console.log('Cannot get list parent');
             });
         }
-
         $scope.ChooseImage = function () {
             var finder = new CKFinder();
             finder.selectActionFunction = function (fileUrl) {
-                $scope.product.Image = fileUrl;
+                $scope.$apply(function () {
+                    $scope.product.Image = fileUrl;
+                })
             }
             finder.popup();
         }
@@ -55,9 +57,11 @@
                 $scope.$apply(function () {
                     $scope.moreImages.push(fileUrl);
                 })
+
             }
             finder.popup();
         }
         loadProductCategory();
     }
+
 })(angular.module('thetechshop.products'));
