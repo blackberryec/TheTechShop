@@ -92,8 +92,20 @@
     <Compile Include="Migrations\201710110706149_addforeignkey.Designer.cs">
       <DependentUpon>201710110706149_addforeignkey.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710211252381_renameTableIdentity.cs" />
+    <Compile Include="Migrations\201710211252381_renameTableIdentity.Designer.cs">
+      <DependentUpon>201710211252381_renameTableIdentity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710211315316_addNewDbSet.cs" />
+    <Compile Include="Migrations\201710211315316_addNewDbSet.Designer.cs">
+      <DependentUpon>201710211315316_addNewDbSet.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ApplicationGroupRepository.cs" />
+    <Compile Include="Repositories\ApplicationRoleGroupRepository.cs" />
+    <Compile Include="Repositories\ApplicationRoleRepository.cs" />
+    <Compile Include="Repositories\ApplicationUserGroupRepository.cs" />
     <Compile Include="Repositories\ContactDetailRepository.cs" />
     <Compile Include="Repositories\ErrorRepository.cs" />
     <Compile Include="Repositories\FeedbackRepository.cs" />
@@ -154,6 +166,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201710110706149_addforeignkey.resx">
       <DependentUpon>201710110706149_addforeignkey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710211252381_renameTableIdentity.resx">
+      <DependentUpon>201710211252381_renameTableIdentity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710211315316_addNewDbSet.resx">
+      <DependentUpon>201710211315316_addNewDbSet.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

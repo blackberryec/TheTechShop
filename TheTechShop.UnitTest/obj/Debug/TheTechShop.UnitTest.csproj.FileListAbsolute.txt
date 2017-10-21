@@ -214,3 +214,8 @@ E:\TheTechShop\TheTechShop.UnitTest\obj\Debug\TheTechShop.UnitTest.csprojResolve
 E:\TheTechShop\TheTechShop.UnitTest\obj\Debug\TheTechShop.UnitTest.csproj.CoreCompileInputs.cache
 E:\TheTechShop\TheTechShop.UnitTest\obj\Debug\TheTechShop.UnitTest.dll
 E:\TheTechShop\TheTechShop.UnitTest\obj\Debug\TheTechShop.UnitTest.pdb
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\BotDetect.Web.Mvc.dll
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\BotDetect.dll
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\System.Web.Http.Owin.dll
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\System.Web.Http.Owin.xml
+F:\C# Data\TheTechShop\TheTechShop.UnitTest\bin\Debug\TheTechShop.Service.dll.config
