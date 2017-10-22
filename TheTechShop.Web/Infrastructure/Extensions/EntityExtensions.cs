@@ -120,5 +120,35 @@ namespace TheTechShop.Web.Infrastructure.Extensions
             order.Status = orderVm.Status;
             order.CustomerId = orderVm.CustomerId;
         }
+
+        public static void UpdateApplicationGroup (this ApplicationGroup appGroup, ApplicationGroupViewModel appGroupViewModel)
+        {
+            appGroup.ID = appGroupViewModel.ID;
+            appGroup.Name = appGroupViewModel.Name;
+        }
+
+        public static void UpdateApplicationRole(this ApplicationRole applicationRole, ApplicationRoleViewModel applicationRoleViewModel, string action = "add")
+        {
+            if (action == "update")
+            {
+                applicationRole.Id = applicationRoleViewModel.Id;
+            }
+            else
+            {
+                applicationRole.Id = Guid.NewGuid().ToString();
+            }
+            applicationRole.Name = applicationRoleViewModel.Name;
+            applicationRole.Description = applicationRoleViewModel.Description;
+        }
+
+        public static void UpdateUser(this ApplicationUser applicationUser, ApplicationUserViewModel applicationUserViewModel, string action = "add")
+        {
+            applicationUser.Id = applicationUserViewModel.Id;
+            applicationUser.FullName = applicationUserViewModel.FullName;
+            applicationUser.BirthDay = applicationUserViewModel.BirthDay;
+            applicationUser.Email = applicationUserViewModel.Email;
+            applicationUser.UserName = applicationUserViewModel.UserName;
+            applicationUser.PhoneNumber = applicationUserViewModel.PhoneNumber;
+        }
     }
 }

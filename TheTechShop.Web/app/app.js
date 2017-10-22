@@ -2,6 +2,9 @@
     angular.module('thetechshop',
         ['thetechshop.products',
          'thetechshop.product_categories',
+         'thetechshop.application_roles',
+         'thetechshop.application_users',
+         'thetechshop.application_groups',
          'thetechshop.common'
         ])
         .config(config)
@@ -27,7 +30,7 @@
             templateUrl: "/app/components/home/homeView.html",
             controller: "homeController"
         });
-        $urlRouterProvider.otherwise('/admin');
+        $urlRouterProvider.otherwise('/login');
     }
     function configAuthentication($httpProvider) {
         $httpProvider.interceptors.push(function ($q, $location) {
