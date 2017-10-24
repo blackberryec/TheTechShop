@@ -41,3 +41,6 @@ E:\TheTechShop\TheTechShop.Service\obj\Debug\TheTechShop.Service.pdb
 F:\C# Data\TheTechShop\TheTechShop.Service\bin\Debug\TheTechShop.Service.dll.config
 F:\C# Data\TheTechShop\TheTechShop.Service\bin\Debug\EntityFramework.SqlServer.dll
 F:\C# Data\TheTechShop\TheTechShop.Service\bin\Debug\EntityFramework.SqlServer.xml
+E:\TheTechShop\TheTechShop.Service\bin\Debug\TheTechShop.Service.dll.config
+E:\TheTechShop\TheTechShop.Service\bin\Debug\EntityFramework.SqlServer.dll
+E:\TheTechShop\TheTechShop.Service\bin\Debug\EntityFramework.SqlServer.xml

@@ -58,3 +58,5 @@ F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.ad
 F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.addforeignkey.resources
 F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.renameTableIdentity.resources
 F:\C# Data\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.addNewDbSet.resources
+E:\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.renameTableIdentity.resources
+E:\TheTechShop\TheTechShop.Data\obj\Debug\TheTechShop.Data.Migrations.addNewDbSet.resources
